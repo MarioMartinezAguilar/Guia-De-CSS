@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    background: rgb(77, 71, 71);
+    overflow:auto;
+    margin:0;
+}
+
+
+
+.navbar a{
+   float:left;
+   padding:15px;
+   color: white;
+   text-decoration: none; 
+}
+.navbar a:hover{
+    background-color: rgb(7, 156, 87);
+}
+.active{
+    background-color: rgb(7, 156, 87);
+}
+i{
+    padding: 0 5px;
+}
+
+.responsive{
+    display: none;
+}
+@media(max-width:600px){
+    .responsive{
+        display: block;
+        float: right;
+        padding:12px;
+    }
+    a{
+        display:none;
+    }
+}
+.introduccion{
+    text-align: center;
+    margin:0 10%;
+}
+footer{
+    background-color: beige;
+    color:black;
+    padding: 13px;
+    margin:0;
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: 900;
+
+    
+}

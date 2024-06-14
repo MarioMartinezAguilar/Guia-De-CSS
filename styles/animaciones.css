@@ -1,0 +1,36 @@
+.cajita{
+    margin: 0 10px;
+    padding: 10px;
+    border:2px solid black;
+    width: 25px;
+    height: 25px;
+    position:relative;
+    
+}
+
+@keyframes animacion{
+    from{
+        left: 0;
+        background-color: red;
+    }
+    to{
+        left: 250px;;
+        background-color: green;
+    }
+}
+.linear{
+    animation: animacion 2s linear  infinite alternate;
+    
+}
+ .ease{
+    animation: animacion 2s ease  infinite alternate;
+}
+.ease-in{
+    animation: animacion 2s ease-in  infinite alternate;
+}
+.ease-out{
+    animation: animacion 2s ease-out  infinite alternate;
+}
+.ease-in-out{
+    animation: animacion 2s ease-in-out  infinite alternate;
+} 
